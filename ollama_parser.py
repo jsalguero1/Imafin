@@ -1,6 +1,6 @@
 import ollama
 import json
-from parser import parse_text
+from ocr_parser import parse_text
 MODEL = "qwen2.5:7b-instruct"
 SYSTEM = """
     Para cada texto debes indicar en un json los siguientes datos sin informacion adicional ni inventada:

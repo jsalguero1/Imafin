@@ -1,7 +1,7 @@
 import sys
 import json
 from ocr import extract_text
-from parser import parse_text
+from ocr_parser import parse_text
 from ollama_parser import parse_to_json
 from db import init_db, insert_movimiento
 
